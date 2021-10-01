@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+     <section class="">
+       <div class="container my-3">
+         <div class="row form_row">
+           <div class="col-md-12 col-lg-6 m-auto text-center mt-1 about_form">
+             <h2 class="mb-4">সঠিক তথ্য ও সঠিক বানানের দিকে লক্ষ্য রেখে <br> <span class="animate"></span></h2>
+
+                                                    <!-- Form part start -->
+                <form action="">
+                   <div class="file_div mb-2"> <input type="file" class="my-4" required></div>
+                    <div class="row">
+                        <div class="col-md-12 form-group worker">               
+                            <label  for="">আপনার নাম</label>                           
+                            <input type="text" class="form-control mb-2 tt" required>                        
+                        </div>                     
+                    </div>
+                    <div class="row">
+                        <div class="col-6 born mb-2 form-group">
+                            <label  for="">জন্মতারিখ</label> 
+                            <input type="date" class="form-control" required>
+                        </div>
+                        <div class="col-6 col-md-6  mt-3 gender form-group mb-4">                         
+                            <input name="gender" type="radio"  required><span>পুরুষ</span>
+                            <input  name="gender" type="radio" required><span>মহিলা</span>
+                        </div>
+                    </div>
+                        
+                    <div class="row ih">                       
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">গ্রামের নাম</label> 
+                            <input type="text" class="form-control" required>
+                        </div> 
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">থানার নাম</label> 
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">জেলার নাম</label> 
+                            <input type="text" class="form-control" required>
+                        </div> 
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">বিভাগের নাম</label>
+                            <input type="text" class="form-control" required>
+                        </div>   
+                    </div>  
+                                       
+                    <div class="row  mb-2 ih">                       
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">সেকশনের নাম</label>
+                            <input type="text" class="form-control" required>
+                        </div> 
+                        <div class="col-6 mb-2 form-group">
+                            <label  for="">পদবীর নাম</label>
+                            <input type="text" class="form-control" required>
+                        </div>                         
+                    </div>
+                    <div class="plush mb-2">
+                    <div class="plush_content">সেকশন ও পদবীর নাম বাড়াতে যোগ চিহ্নে ক্লিক করুন </div> 
+                    <div class="plush_button">
+                        <a href="#" class="btn plush_btn">+</a>
+                    </div>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="5" class="form-control mb-2" placeholder="জানা কাজ সমূহ এবং নিজ সমন্ধ্যে বর্ণনা করুন" required></textarea>
+                    <input class="mb-2 form-control " type="submit" value="সাবমিট" placeholder="সাবমিট">
+                </form>
+
+                                                    <!-- Form part end -->
+           </div>
+         </div>
+       </div>
+     </section>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="typed.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var typed = new Typed('.animate', {
+        strings: ["নিচে থাকা ফর্মটি পূরন করুন।"],
+        typeSpeed: 90,
+        loop:true,
+      });    
+      </script>
+  </body>
+</html>

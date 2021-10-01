@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile!</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+  </head>
+  <body>
+    <section>
+        <div class="container mt-5">
+            <div class="row form_row">
+                <div class="col-md-6 m-auto profile_form">
+                    <h2>প্রতিষ্ঠানের সঠিক তথ্য এবং সঠিক বানানের দিকে লক্ষ্য রেখে নিচের ফর্মটি পূরণ করুন</h2>
+                    <form action="" class="text-center mt-3">
+                        <div class="row my-2 ih">
+                            <div class="col-md-12 form-group">
+                                <label  for="">প্রতিষ্ঠানের নাম</label>
+                                <input class="col-md-3 form-control mb-2" type="text" required>
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label  for="">প্রতিষ্ঠানের ঠিকানা</label>
+                                <input class="col-md-3 form-control" type="text" required>
+                            </div>
+                        </div>
+                        <div class="row my-2 ih">
+                            <div class="col-6 form-group">
+                                <label  for="">ডিউটি ঘন্টা</label>
+                                <input class="col-md-3 form-control mb-2" type="text" required>
+                            </div>
+                            <div class="col-6 form-group">
+                                <label  for="">শিফট সংখ্যা</label>
+                                <input class="col-md-3 form-control" type="text" required>
+                            </div>
+                        </div>                                           
+                        <div class="d-flex justify-content-center">
+                            <h4>প্রতিষ্ঠানের ধরন</h4>
+                            <input name="hours" type="radio" required> <span>লোকাল</span>
+                            <input  name="hours" type="radio" required> <span>গ্রুপ</span>
+                        </div>                             
+                        <div class="row mb-2 ih">
+                            <div class="col-6 form-group">
+                                <label  for="">সেকশনের নাম</label>
+                                <input class="col-md-3 form-control mb-2" type="text" required>
+                            </div>
+                            <div class="col-6 form-group">
+                                <label  for="">মেশিন সংখ্যা</label>
+                                <input class="col-md-3 form-control" type="text" required>
+                            </div>
+                        </div>
+                        <div class="profile_plush mb-2">
+                             <div class="profile_plush_content">সেকশন ও মেশিন সংখ্যা বাড়াতে যোগ চিহ্নে ক্লিক করুন </div>
+                            <div class="profile_plush_button">
+                                <a href="#" class="btn profile_plush_btn">+</a>
+                            </div>
+                        </div>      
+                        <input type="submit" value="সাবমিট" placeholder="সাবমিট" class="form-control">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

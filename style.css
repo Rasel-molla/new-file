@@ -1,0 +1,324 @@
+/* font-family: 'Playfair Display', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+                                                 /* Start of menu part */
+.bg_color{
+    background-color: #0B5ED7;
+}
+.menu_row{
+    min-height: 10vh;
+    align-items: center;
+}
+.nav_item{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_item ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    text-align: center;
+}
+.nav_item ul li{
+    list-style-type: none;
+    padding: 5px 15px;
+}
+.nav_item ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu_btn{
+    color: white;
+    border: 1px solid black;
+}
+.profile_icon{
+  text-align: left;
+}
+.home_icon i, .profile_icon i{
+    color: white;
+    font-size: 25px;
+}
+ 
+                              /* End of menu part */
+
+                              /* Start of এক্সেসরিজ part */
+.Heading_text h1{
+    font-size: 60px;
+}
+.Heading_text p{
+   text-align: left;
+}  
+.Heading_text a:hover{
+    color: white;
+} 
+.Heading_text a:focus{
+    box-shadow: none;
+}
+                     
+                             /* End of এক্সেসরিজ part */
+                                    
+                            /* start  Personal profile section part */
+.id_section h1{
+    font-size: 22px;
+}
+.id_section a{
+    margin: 0;
+    padding: 0;
+    padding: 8px 13px;
+    color: white;
+    background-color: #0B5ED7;
+}
+.id_section a:hover{
+    color: white;
+}
+.id_section a:hover{
+    color: white;
+}
+.heading_div{
+    border:  1px solid rgb(170, 166, 166);
+    box-shadow: 1px 1px 20px 10px #dde0e6;
+}
+                                    /* end  Personal profile section part */
+                                                       
+                                            /* login form start*/
+.form_row{
+    min-height: 80vh;
+    align-items: center;
+}
+.login_form h2, h3{
+    color: white;
+    font-size: 20px;
+}
+.login_form input{
+    background: transparent;
+    color: white !important;
+}
+.login_form input:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.login_form input::placeholder{
+   color: white;
+}
+.login_form input[type="submit"]{
+    border: 1px solid #2765d1;
+    background-color: #2765d1;
+    transition: .3s all ease-in-out;
+}
+.login_form input[type="submit"]:focus{
+    background-color: #2765d1;
+    color: white;
+}
+.login_form input[type="submit"]:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid #2765d1;
+}
+.id_creat_btn{
+    background-color: #4472C4 !important;
+    color: white !important;
+    transition: .3s all ease-in-out;
+}
+.login_form .id_creat_btn:hover{
+    background: transparent !important;
+    border: 1px solid #4472C4;
+}
+.login_form .id_creat_btn:focus{
+    background: transparent;
+}
+
+                                                    /* login form start*/
+
+
+                                              /*About form part start */
+.about_form, .profile_form, .login_form{
+    background-image: url("img/bg_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px 18px #dde0e6;
+}
+
+.about_form .file_div{
+    width: 100%;
+    height: 100px;
+    background-color: #4472C4;
+    border-radius: 5px;
+}
+.about_form input[type="file"]{
+    cursor: pointer;
+}
+.about_form h2{
+    color: white;
+    font-size: 20px;
+}
+.about_form input, .profile_form input{
+    background: transparent !important;
+    color: white !important;
+}
+.about_form input:focus, .profile_form input:focus{
+    box-shadow: none;
+}
+.about_form textarea{
+    background: transparent !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.about_form textarea::placeholder{
+    color: white;
+}
+.gender, .born, label{
+    color: white;
+}
+.gender{
+    padding-top: 24px;
+}
+.gender h5{
+    margin-right: 15px;
+}
+.gender span{
+    margin-right: 8px;
+}
+.gender input[type="radio"]{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.about_form input[type="email"]{
+   box-shadow: none;
+}
+.born, .worker, .ih{
+    text-align: initial;
+}
+.born h5{
+    margin-right: 20px;
+    margin-top: 13px;
+}
+.about_form input[type="date"]{
+    box-shadow: none;
+}
+.profile_plush_content,.plush_content{
+    text-align: left;
+    color: white;
+    width: 80%;
+    height: 35px;
+    border: 1px solid rgb(202, 198, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_plush_btn,.plush_btn{
+    background-color:#2765d1;
+    margin: 0;
+    padding: 0;
+    padding: 0px 40px;
+}
+.profile_plush_button a,.plush_button a{
+    font-size: 25px !important;
+    font-weight: 800 !important;
+    border: 1px solid #2765d1;
+    transition: .3s all ease-in-out;
+}
+.profile_plush_button a:focus,.plush_button a:focus{
+   box-shadow: none;
+}
+.profile_plush_button a:hover,.plush_button a:hover{
+    background: none;
+    color: white;
+ }
+.profile_plush, .plush{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_form input[type="submit"]{
+    border: none !important;
+    background-color: #2765d1 !important;
+    border: 1px solid #2765d1 !important;
+    transition: .3s all ease-in-out;
+}
+
+.about_form input[type="submit"]:hover{
+    background: transparent !important;
+    color: white;
+    border: 1px solid #2765d1 !important;
+}
+
+                                            /*About form part end */
+.profile_form h2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.profile_form h4{
+    color: white;
+    margin-right: 20px;
+}
+.profile_form span{
+    color: white;
+    margin-right: 5px;
+}
+.profile_form input[type="radio"]{
+    margin-top: 5px;
+    margin-right:5px;
+}
+.profile_form input[type="submit"]{
+    border: none !important;
+    background-color: #2765d1 !important;
+    border: 1px solid #2765d1 !important;
+    transition: .3s all ease-in-out;
+}
+
+.profile_form input[type="submit"]:hover{
+    background: transparent !important;
+    color: white;
+    border: 1px solid #2765d1 !important;
+}
+
+                                        /* mission part start */
+.mission h2{
+    color: #2765d1;
+    width: 30%;
+    padding: 5px 0;
+    text-align: left;
+    border-radius: 5px;
+}
+.mission p{
+   padding: 0;
+}
+
+                                         /* mission part end */
+
+                                     /* start of social section part */
+.social_part h1{
+    font-size: 20px; 
+}                                    
+.social_icon i{
+    font-size: 30px;
+    margin: 0;
+    margin-right: 20px;
+    color: #4472C4;
+}
+                                /* end of social section part */
+                                      
+.post-container{
+    transition: .3s all ease-in-out;
+}
+.post-container:hover{
+    box-shadow: 1px 1px 1px 8px #dee3ec;
+    cursor: pointer;
+}
+.footer{
+    background-color: #0B5ED7;
+    padding: 30px 0;
+}
+                      /* Footer end */
